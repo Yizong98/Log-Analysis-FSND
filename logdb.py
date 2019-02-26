@@ -46,7 +46,7 @@ if __name__ == '__main__':
     for row in rows:
         print("{0} - {1} views".format(row[0], int(row[1])))
     rows = set_db(q2)
-    print "\nTop 3 Most Popular Books:\n"
+    print "\nTop 3 Most Popular Articles:\n"
     for row in rows:
         print("{0} - {1} views".format(row[0], int(row[1])))
     rows = set_db(q3)
